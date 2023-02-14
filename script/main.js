@@ -273,6 +273,11 @@ const animationTimeline = () => {
   replyBtn.addEventListener("click", () => {
     tl.restart();
   });
+
+  const replyBtn1 = document.getElementById("replay1");
+  replyBtn.addEventListener("click", () => {
+    window.open("https://open.spotify.com/track/3SdTKo2uVsxFblQjpScoHy?si=a33e89d4122b4816", "_blank")
+  });
 };
 
 // Import the data to customize and insert them into page
